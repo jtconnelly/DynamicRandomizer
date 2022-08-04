@@ -1,0 +1,17 @@
+cmake_minimum_required (VERSION 3.20)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+project (DynamicRandomizer)
+
+set(CMAKE_OUTPUT_DIR ${CMAKE_SOURCE_DIR}/build/bin)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_OUTPUT_DIR})
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_OUTPUT_DIR})
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_OUTPUT_DIR})
+set_property(GLOBAL PROPERTY USE_FOLDERS ON)
+
+add_subdirectory (app)
+add_subdirectory (games)
+
+set(CPACK_OUTPUT_FILE_PREFIX packages)
+include(CPack)
