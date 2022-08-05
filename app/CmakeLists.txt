@@ -11,7 +11,7 @@ if(UNIX)
     set (CMAKE_CXX_FLAGS "-W -Wall -Wextra")
 endif(UNIX)
 
-add_executable(Randomizer ${DLLOADER_SRC} main.cpp)
+add_executable(Randomizer ${DLLOADER_SRC} main.cpp ../API/IGame.h)
 
 include_directories(
     "../API/"
