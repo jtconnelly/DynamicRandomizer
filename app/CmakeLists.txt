@@ -1,3 +1,5 @@
+
+set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 if (WIN32)
     set(DLLOADER_SRC
         loader/WinDLLoader.h
@@ -42,4 +44,5 @@ if (MSVC)
     d3d11.lib
     d3dcompiler.lib
     dxgi.lib)
+    target_link_options(Randomizer PRIVATE "/SUBSYSTEM:WINDOWS")
 endif()
