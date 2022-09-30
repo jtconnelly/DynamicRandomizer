@@ -1,4 +1,4 @@
-add_library(Multiversus SHARED game.cpp game.h)
+add_library(CoD SHARED game.cpp game.h)
 add_compile_definitions(EXPORTS)
 
 include_directories(
@@ -6,4 +6,4 @@ include_directories(
 )
 
 set (LibDir "${PROJECT_SOURCE_DIR}")
-install(TARGETS Multiversus RUNTIME DESTINATION bin)
+install(TARGETS CoD RUNTIME DESTINATION bin)

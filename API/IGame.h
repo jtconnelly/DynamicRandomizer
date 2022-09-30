@@ -1,12 +1,16 @@
 #pragma once
 
-#include <vector>
+#include <string>
 
 class IGame
 {
-    using void(*fptr);
 public:
     virtual ~IGame() = default;
 
-    virtual std::vector<fptr> getFuncs() = 0;
+    //What will return the string to display for any game, isDef only matters if hasSides == true
+    virtual std::string random(bool isDef) = 0;
+private:
+
+    std::string _game;
+    bool hasSides;
 };
