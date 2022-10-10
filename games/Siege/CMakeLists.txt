@@ -8,3 +8,4 @@ include_directories(
 
 set (LibDir "${PROJECT_SOURCE_DIR}")
 install(TARGETS Siege RUNTIME DESTINATION bin)
+install(FILES "SiegeFallback.txt" DESTINATION bin)

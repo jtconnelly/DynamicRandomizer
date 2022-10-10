@@ -1,0 +1,187 @@
+Sledge,Sledge L85A2,M590A1,-,P226,-,Frag,Stun
+Thatcher,Thatcher L85A2,Thatcher AR33,M590A1,-,P226,-,Breach,Claymore
+Ash,R4-C,Ash G36C,-,M45,5.7,-,Breach,Claymore
+Thermite,556XI,M1014,-,M45,5.7,-,Smoke,Stun
+Twitch,F2,417,SG-CQB,-,P9,LFP586,-,Claymore,Stun
+Montagne,P9,LFP586,-,Hard Breach,Smoke
+Glaz,OTs-03,-,PMM,GONNE-6,Bearing 9,-,Smoke,Frag
+Fuze,Shield,6P41,Fuze AK-12,-,PMM,GSH-18,-,Breach,Hard Breach
+Blitz,P12,-,Smoke,Breach
+IQ,AUG A2,552 Commando,IQ G8A1,-,P12,-,Breach,Claymore
+Buck,C8,CAMRS,-,MK1,-,Stun,Hard Breach
+Blackbeard,MK17,SR-25,-,D-50,-,Claymore,Stun
+Capitao,PARA,M249,-,PRB92,-,Claymore,Hard Breach
+Hibana,Type-89,Supernova,-,P229,Bearing 9,-,Stun,Breach
+Jackal,C7E,PDW9,ITA12,-,USP40,ITA12,-,Claymore,Smoke
+Ying,T-95,SIX12,-,Q-929,-,Hard Breach,Smoke
+Zofia,LMG-E,M762,-,RG15,-,Breach,Claymore
+Dokkaebi,Mk 14,BOSG,-,SMG-12,C75,GONNE-6,-,Smoke,Stun
+Lion,V308,417,SG-CQB,-,LFP586,P9,GONNE-6,-,Stun,Claymore
+Finka,Spear,6P41,SASG,-,PMM,GSH-18,GONNE-6,-,Frag,Stun
+Maverick,AR-15,M4,-,1911,-,Frag,Claymore
+Nomad,AK-74,Nomad ARX200,-,44,PRB92,-,Stun,Breach
+Gridlock,F90,SAW,-,Super Shorty,SDP,GONNE-6,-,Smoke,Breach
+Nokk,FMG,SIX12,-,5.7,D-50,-,Frag,Hard Breach
+Amaru,Amaru G8A1,Supernova,-,SMG-11,ITA12,GONNE-6,-,Hard Breach,Stun
+Kali,SPSMG,C75,P226,-,Claymore,Breach
+Iana,Iana ARX200,Iana G36C,-,MK1,GONNE-6,-,Frag,Smoke
+Ace,Ace AK-12,M1014,-,P9,-,Breach,Claymore
+Zero,SC3000K,Zero MP7,-,Zero 5.7,GONNE-6,-,Hard Breach,Claymore
+Flores,Flores AR33,SR-25,-,GSH-18,-,Stun,Claymore
+Osa,556XI,PDW9,-,PMM,-,Smoke,Claymore
+Sens,POF-9,417,-,SDP,GONNE-6,-,Hard Breach,Claymore
+-
+Smoke,FMG,M590A1,-,P226,SMG-11,-,Barbed Wire,Shield
+Mute,MP5K,M590A1,-,P226,SMG-11,-,Nitro,Camera
+Castle,Castle UMP45,M1014,-,5.7,Super Shorty,-,Camera,Alarm
+Pulse,Pulse UMP45,M1014,-,M45,5.7,-,Barbed Wire,Nitro
+Doc,SG-CQB,Doc MP5,P90,-,P9,LFP586,-,Camera,Barbed Wire
+Rook,SG-CQB,Rook MP5,P90,-,P9,LFP586,-,Alarm,Impact
+Kapkan,Kapkan 9x19VSN,SASG,-,PMM,GSH-18,-,Impact,Nitro
+Tachanka,DP27,9x19VSN,-,PMM,GSH-18,Bearing 9,-,Barbed Wire,Shield
+Jager,M870,416-C,-,P12,-,Camera,Barbed Wire
+Bandit,M870,MP7,-,P12,-,Barbed Wire,Nitro
+Frost,Super 90,C1,-,MK1,ITA12,-,Camera,Shield
+Valkyrie,MPX,SPAS,-,D-50,-,Impact,Nitro
+Caveira,M12,SPAS,-,Luison,-,Impact,Alarm
+Echo,Supernova,MP5SD,-,P229,Bearing 9,-,Impact,Shield
+Mira,Vector,ITA12,-,USP40,ITA12,-,Alarm,Nitro
+Lesion,SIX12,T-5,-,Q-929,-,Impact,Camera
+Ela,Scorpion,FO-12,-,RG15,-,Barbed Wire,Shield
+Vigil,K1A,BOSG,-,SMG-12,C75,-,Impact,Camera
+Maestro,Alda,Maestro ACS12,-,Bailiff,Keratos,-,Barbed Wire,Impact
+Alibi,Mx4,Alibi ACS12,-,Bailiff,Keratos,-,Impact,Shield
+Clash,Super Shorty,SPSMG,P-10C,-,Barbed Wire,Impact
+Kaid,AUG A3,TCSG12,-,44,LFP586,-,Nitro,Barbed Wire
+Mozzie,Commando 9,Roni,-,SDP,-,Barbed Wire,Nitro
+Warden,Warden MPX,M590A1,-,P-10C,SMG-12,-,Shield,Nitro
+Goyo,Vector,TCSG12,-,P229,-,Alarm,Nitro
+Wamai,Wamai AUG,MP5K,-,Keratos,P12,-,Impact,Alarm
+Oryx,Oryx T-5,SPAS,-,Bailiff,USP40,-,Barbed Wire,Alarm
+Melusi,Melusi MP5,Super 90,-,RG15,-,Camera,Impact
+Aruni,Aruni Roni,Aruni Mk 14,-,PRB92,-,Barbed Wire,Camera
+Thunderbird,Thunderbird Spear,SPAS,-,Bearing 9,Q-929,-,Impact,Nitro
+Thorn,UZK50GI,M870,-,1911,C75,-,Shield,Barbed Wire
+Azami,9x19VSN,Azami ACS12,-,D-50,-,Barbed Wire,Impact
+-
+Sledge L85A2,1.5x,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Comp,Flash Hider,Brake,Suppressor,None,Vertical Grip,None,Laser,None,
+M590A1,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Laser,None
+P226,Brake,Suppressor,None,Laser,None
+Thatcher L85A2,2.0x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,None,Laser,None
+Thatcher AR33,1.5x,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+R4-C,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,lash Hider,Comp,Brake,Suppressor,Extended Barrel,None,Vertical Grip,None,Laser,None
+Ash G36C,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,lash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+M45,Brake,Suppressor,None,Laser,None
+5.7,Brake,Suppressor,None,Laser,None
+556XI,2.0x,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+M1014,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Laser,None
+F2,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Laser,None
+417,1.5x,2.0x,2.5xA,2.5xB,3.0x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Brake,Suppressor,None,Vertical Grip,None,Laser,None
+SG-CQB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Vertical Grip,None,Laser,None
+P9,Brake,Suppressor,None,Laser,None
+LFP586,Laser,None
+OTs-03,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Brake,Suppressor,None
+PMM,Brake,Suppressor,None,Laser,None
+Bearing 9,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Suppressor,None,Laser,None
+6P41,1.5x,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Suppressor,None,Vertical Grip,None,Laser,None
+Fuze AK-12,2.0x,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angeled Grip,None,Laser,None
+GSH-18,Brake,Suppressor,None
+P12,Brake,Suppressor,None,Laser,None
+AUG A2,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comnp,Suppressor,None,Laser,None
+552 Commando,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+IQ G8A1,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Suppressor,None,Vertical Grip,Angled Grip,None
+C8,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,Extended Barrel,None,Laser,None
+CAMRS,1.5x,2.0x,2.5xA,2.5xB,3.0x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Brake,Suppressor,None,Laser,None
+MK1,Brake,Suppressor,None,Laser,None
+MK17,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,Extended Barrel,None,Vertical Grip,Angled Grip,None,Laser,None
+SR-25,1.5x,2.0x,2.5xA,2.5xB,3.0x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Brake,Suppressor,None,Vertical Grip,None,Laser,None
+D-50,Brake,Suppressor,None,Laser,None
+PARA,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,Extended Barrel,None,Vertical Grip,Angled Grip,None,Laser,None
+M249,1.5x,2.0x,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,None,Vertical Grip,None,Laser,None
+PRB92,Brake,Suppressor,None,Laser,None
+Type-89,1.5x,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+Supernova,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Suppressor,None,Laser,None
+P229,Brake,Suppressor,None,Laser,None
+C7E,2.0x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+PDW9,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+ITA12,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Laser,None
+USP40,Brake,Suppressor,None,Laser,None
+T-95,1.5x,2.0x,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+SIX12,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Laser,None
+Q-929,Brake,Suppressor,None,Laser,None
+LMG-E,1.5x,2.0x,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,None,Laser,None
+M762,2.0x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+RG15,Brake,Suppressor,None,Laser,None
+Mk 14,1.5x,2.0x,2.5xA,2.5xB,3.0x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+BOSG,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Vertical Grip,Angled Grip,None,Laser,None
+SMG-12,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Vertical Grip,Angled Grip,None,Laser,None
+C75,Suppressor,None
+V308,2.0x,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+Spear,2.0x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,None,Laser,None
+SASG,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+AR-15,1.5x,2.0x,2.5xA,2.5xB,3.0x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+M4,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,Extended Barrel,None,Vertical Grip,Angled Grip,None,Laser,None
+1911,Brake,Suppressor,None,Laser,None
+AK-74,1.5x,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Laser,None
+Nomad ARX200,2.0x,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Laser,None
+44,Laser,None
+F90,2.0x,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,None,Laser,None
+SAW,1.5x,2.0x,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,None,Vertical Grip,None,Laser,None
+Super Shorty,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Laser,None
+SDP,Brake,Suppressor,None,Laser,None
+FMG,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Brake,Suppressor,None,Laser,None
+Amaru G8A1,2.0x,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Suppressor,None,Vertical Grip,Angled Grip,None
+SMG-11,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Suppressor,Extended Barrel,None,Vertical Grip,None,Laser,None
+SPSMG,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Suppressor,None,Laser,None
+Iana ARX200,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,None,Laser,None
+Iana G36C,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+Ace AK-12,2.0x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angeled Grip,None,Laser,None
+SC3000K,1.5x,2.0x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,Extended Barrel,None,Vertical Grip,Angled Grip,NoneLaser,None
+Zero MP7,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Laser,None
+Zero 5.7,Laser,None
+Flores AR33,1.5x,2.0x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+POF-9,1.5x,2.0x,2.5xA,2.5xB,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,Extended Barrel,None,Vertical Grip,Angled Grip,None,Laser,None
+MP5K,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Laser,None
+Castle UMP45,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,Extended Barrel,None,Vertical Grip,Angled Grip,None,Laser,None
+Pulse UMP45,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,Extended Barrel,None,Vertical Grip,Angled Grip,None,Laser,None
+Doc MP5,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Brake,Suppressor,None,Vertical Grip,None,Laser,None
+Rook MP5,2.0x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Brake,Suppressor,None,Vertical Grip,None,Laser,None
+P90,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Brake,Suppressor,Extended Barrel,None,Laser,None
+Kapkan 9x19VSN,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+DP27,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None
+9x19VSN,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+M870,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Laser,None
+416-C,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,Extended Barrel,None,Laser,None
+Bandit MP7,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Laser,None
+Super 90,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Laser,None
+C1,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Suppressor,Extended Barrel,None,Angled Grip,None,Laser,None
+MPX,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+SPAS,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Laser,None
+M12,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Brake,Suppressor,Extended Barrel,None,Laser,None
+Luison,Laser,None
+MP5SD,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Vertical Grip,Angled Grip,None,Laser,None
+Vector,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,Extended Barrel,None,Vertical Grip,None,Laser,None
+T-5,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Laser,None
+Scorpion,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+FO-12,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Suppressor,Extended Barrel,None,Vertical Grip,Angled Grip,None,Laser,None
+K1A,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+Alda,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,None,Laser,None
+Maestro ACS12,1.5x,2.0x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Vertical Grip,Angled Grip,None,Laser,None
+Bailiff,Laser,None
+Keratos,Brake,Suppressor,None,Laser,None
+Mx4,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,Extended Barrel,None,Vertical Grip,Angled Grip,None,Laser,None
+Alibi ACS12,2.0x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Vertical Grip,Angled Grip,None,Laser,None
+P-10C,Brake,Suppressor,None,Laser,None
+AUG A3,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+TCSG12,2.0x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+Commando 9,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+Roni,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,Extended Barrel,None,Vertical Grip,Angled Grip,None,Laser,None
+Warden MPX,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+Wamai AUG,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Suppressor,None,Laser,None
+Oryx T-5,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Laser,None
+Melusi MP5,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Brake,Suppressor,None,Vertical Grip,None,Laser,None
+Aruni Roni,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,Extended Barrel,None,Vertical Grip,Angled Grip,None,Laser,None
+Aruni Mk 14,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+Thunderbird Spear,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,None,Laser,None
+UZK50GI,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Flash Hider,Comp,Brake,Suppressor,None,Vertical Grip,Angled Grip,None,Laser,None
+Azami ACS12,1.5x,RedDotA,RedDotB,RedDotC,HoloA,HoloB,HoloC,HoloD,ReflexA,ReflexB,ReflexC,None,Vertical Grip,Angled Grip,None,Laser,None

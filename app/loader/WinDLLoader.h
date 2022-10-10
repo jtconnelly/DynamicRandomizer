@@ -35,7 +35,7 @@ namespace dlloader
 
 		std::shared_ptr<T> DLGetInstance() override
 		{
-			using allocClass = T * (*)();
+			using allocClass = T * (*)(std::string);
 			using deleteClass = void(*)(T*);
 
 			auto allocFunc = reinterpret_cast<allocClass>(

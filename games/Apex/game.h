@@ -13,4 +13,7 @@ public:
     }
 
     std::string random(bool isDef = false) override;
+private:
+    bool _initialized = false;
+    bool initialize();
 };

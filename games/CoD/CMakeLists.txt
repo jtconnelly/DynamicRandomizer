@@ -7,3 +7,4 @@ include_directories(
 
 set (LibDir "${PROJECT_SOURCE_DIR}")
 install(TARGETS CoD RUNTIME DESTINATION bin)
+install(FILES "CodFallback.txt" DESTINATION bin)
