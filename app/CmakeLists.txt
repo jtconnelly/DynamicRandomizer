@@ -18,8 +18,8 @@ set (IMGUI_FILES
     ImGui/imgui_internal.h
     ImGui/imgui.h
     ImGui/imgui.cpp
-    ImGui/imgui_impl_dx11.cpp
-    ImGui/imgui_impl_dx11.h
+    ImGui/imgui_impl_dx12.cpp
+    ImGui/imgui_impl_dx12.h
     ImGui/imgui_impl_win32.cpp
     ImGui/imgui_impl_win32.h
     ImGui/imgui_draw.cpp

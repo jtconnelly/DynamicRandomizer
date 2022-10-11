@@ -1,3 +1,4 @@
+#pragma once
 #include <fstream>
 #include <sstream>
 #include <vector>
@@ -18,7 +19,7 @@ namespace csv
         return ans;
     }
 
-    std::vector<std::vector<std::string>> getLines(std::string filename)
+    std::vector<std::vector<std::string>> getLines(std::string filename, char delim = ',')
     {
         std::fstream file(filename, std::ios_base::in);
         if (!file.is_open())
@@ -30,7 +31,7 @@ namespace csv
         {
             std::string s;
             std::getline(file, s);
-            ans.push_back(csv::split(s, ','));
+            ans.push_back(csv::split(s, delim));
         }
         file.close();
         return ans;

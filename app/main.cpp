@@ -1,32 +1,3 @@
-#include <filesystem>
-#include <vector>
-#include <string>
-
-
-// func: getLoadableFiles
-// returns: std::vector<std::filesystem::path> of all loadable dlls in a directory 
-// brief: Searches a directory for dlls and returns a list of dlls
-// param: const std::filesystem::path& pluginsPath - the directory that we will be searching in for DLLs
-std::vector<std::filesystem::path> getLoadableFiles(const std::filesystem::path& pluginsPath)
-{
-    std::vector<std::filesystem::path> ans;
-    if (std::filesystem::exists(pluginsPath))
-    {
-        for (auto&& fi : std::filesystem::recursive_directory_iterator(pluginsPath))
-        {
-#ifdef WIN32
-            if (fi.path().extension() != ".dll")
-                continue;
-#else
-            if (fi.path().extension() != ".so")
-                continue;
-#endif
-            ans.push_back(fi);
-        }
-    }
-    return ans;
-}
-
 
 //Heart of the program
 //This will be what finds all possible Games to include, choose one to load, and provide options for each, in either a console-only or graphical interface
@@ -76,7 +47,7 @@ int main()
 {
     // Create application window
     //ImGui_ImplWin32_EnableDpiAwareness();
-    WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, _T("ImGui Example"), NULL };
+    WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, _T("Randomizer"), NULL };
     ::RegisterClassEx(&wc);
     HWND hwnd = ::CreateWindow(wc.lpszClassName, _T("Dynamic Randomizer"), WS_OVERLAPPEDWINDOW, 100, 100, 1280, 800, NULL, NULL, wc.hInstance, NULL);
 
@@ -97,16 +68,8 @@ int main()
     ImGui::CreateContext();
     ImGuiIO& io = ImGui::GetIO(); (void)io;
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;       // Enable Keyboard Controls
-    //io.ConfigFlags |= ImGuiConfigFlags_NavEnableGamepad;      // Enable Gamepad Controls
     io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;           // Enable Docking
     io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;         // Enable Multi-Viewport / Platform Windows
-    //io.ConfigViewportsNoAutoMerge = true;
-    //io.ConfigViewportsNoTaskBarIcon = true;
-    //io.ConfigViewportsNoDefaultParent = true;
-    //io.ConfigDockingAlwaysTabBar = true;
-    //io.ConfigDockingTransparentPayload = true;
-    //io.ConfigFlags |= ImGuiConfigFlags_DpiEnableScaleFonts;     // FIXME-DPI: Experimental. THIS CURRENTLY DOESN'T WORK AS EXPECTED. DON'T USE IN USER APP!
-    //io.ConfigFlags |= ImGuiConfigFlags_DpiEnableScaleViewports; // FIXME-DPI: Experimental.
 
     // Setup Dear ImGui style
     ImGui::StyleColorsDark();
@@ -140,7 +103,7 @@ int main()
     //IM_ASSERT(font != NULL);
 
     // Our state
-    bool show_demo_window = true;
+    bool show_demo_window = false;
     bool show_another_window = false;
     ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
 

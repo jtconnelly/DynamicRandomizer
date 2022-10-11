@@ -4,6 +4,7 @@
 #endif
 
 #include "imgui.h"
+#include "imgui_internal.h"
 #ifndef IMGUI_DISABLE
 
 // System includes
@@ -12,6 +13,7 @@
 #include <math.h>           // sqrtf, powf, cosf, sinf, floorf, ceilf
 #include <stdio.h>          // vsnprintf, sscanf, printf
 #include <stdlib.h>         // NULL, malloc, free, atoi
+#include <filesystem>
 #if defined(_MSC_VER) && _MSC_VER <= 1500 // MSVC 2008 or earlier
 #include <stddef.h>         // intptr_t
 #else
@@ -66,10 +68,41 @@
 #endif
 
 namespace MyApp {
+    static bool selected = false;
+    static int fileChoice = -1;
     void RenderUI()
     {
+        if (!selected)
+        {
+            ImGui::DockSpaceOverViewport(ImGui::GetMainViewport());
+            ImGui::Text("Dynamic Randomizer!!\nPlease Select a Game to load: ");
+            ImGui::BeginTable("Games", ImGuiTableFlags_SizingStretchSame);
+            getGames();
+            ImGui::EndTable();
+            if (ImGui::Button("Confirm selection") && fileChoice >= 0)
+            {
+                selected = true;
+                confirmGame();
+            }
+        }
+    }
 
-        ImGui::DockSpaceOverViewport(ImGui::GetMainViewport());
+    void getGames()
+    {
+        int i = 0;
+        for (const auto & file: std::filesystem::directory_iterator(std::filesystem::current_path()))
+        {
+            if (file.path().extension() == ".dll")
+            {
+                ImGui::TableNextRow();
+                ImGui::RadioButton(file.path().filename().string().c_str(), &fileChoice, i);
+                i++;
+            }
+        }
+    }
+    void confirmGame()
+    {
+
     }
 }
 
