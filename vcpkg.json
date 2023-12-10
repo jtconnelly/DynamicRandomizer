@@ -1,0 +1,14 @@
+{
+  "name": "dynamic-randomizer",
+  "version":  "1.0.0",
+  "dependencies": [
+    {
+      "name": "imgui",
+      "features": [
+        "glfw-binding",
+        "vulkan-binding"
+      ]
+    },
+    "vulkan"
+  ]
+}

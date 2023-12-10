@@ -2,6 +2,11 @@ cmake_minimum_required (VERSION 3.20)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+MESSAGE("VCPKG_ROOT: $ENV{VCPKG_ROOT}")
+MESSAGE("VCPKG_ROOT_DIR: $ENV{VCPKG_ROOT_DIR}")
+
+include("$ENV{VCPKG_ROOT_DIR}/scripts/buildsystems/vcpkg.cmake")
+
 project (DynamicRandomizer)
 
 set(CMAKE_OUTPUT_DIR ${CMAKE_SOURCE_DIR}/build/bin)

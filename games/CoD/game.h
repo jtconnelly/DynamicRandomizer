@@ -5,11 +5,11 @@
 class CodGame : public IGame
 {
 public:
-    CodGame(std::string filename = "CodFallback.txt")
+    CodGame(std::string filename = "CodFallback.gstf")
     {
         _name = "Cod";
         hasSides = false;
-        dataFile = filename.substr(filename.size() - 4, 4) == ".txt" ? filename.substr(0, filename.size() - 4) : filename;
+        dataFile = filename;
     }
 
     std::string random(bool isDef = false) override;

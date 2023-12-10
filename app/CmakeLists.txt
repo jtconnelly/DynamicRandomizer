@@ -13,25 +13,10 @@ if(UNIX)
     set (CMAKE_CXX_FLAGS "-W -Wall -Wextra")
 endif(UNIX)
 
-set (IMGUI_FILES
-    ImGui/imconfig.h
-    ImGui/imgui_internal.h
-    ImGui/imgui.h
-    ImGui/imgui.cpp
-    ImGui/imgui_impl_dx12.cpp
-    ImGui/imgui_impl_dx12.h
-    ImGui/imgui_impl_win32.cpp
-    ImGui/imgui_impl_win32.h
-    ImGui/imgui_draw.cpp
-    ImGui/imgui_tables.cpp
-    ImGui/imgui_widgets.cpp
-    ImGui/imstb_rectpack.h
-    ImGui/imstb_textedit.h
-    ImGui/imstb_truetype.h
-    ImGui/imgui_window.cpp
-    )
+find_package(imgui CONFIG REQUIRED)
+find_package(Vulkan REQUIRED)
 
-add_executable(Randomizer ${DLLOADER_SRC} main.cpp ${IMGUI_FILES} ../API/IGame.h)
+add_executable(Randomizer ${DLLOADER_SRC} main.cpp ../API/IGame.h)
 
 include_directories(
     "../API/"
@@ -39,10 +24,9 @@ include_directories(
 
 target_link_libraries(Randomizer ${CMAKE_DL_LIBS})
 if (MSVC)
-    target_link_libraries(Randomizer 
-    PUBLIC
-    d3d11.lib
-    d3dcompiler.lib
-    dxgi.lib)
-    target_link_options(Randomizer PRIVATE "/SUBSYSTEM:WINDOWS")
+    target_link_libraries(Randomizer
+    PRIVATE
+    imgui::imgui
+	Vulkan::Vulkan)
+#    target_link_options(Randomizer PRIVATE "/SUBSYSTEM:WINDOWS")
 endif()
